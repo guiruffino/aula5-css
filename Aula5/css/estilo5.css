@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(231, 229, 229);
+}
+
+article{
+    width: 400px;
+    height: 200px;
+    background-color: #dfcd6b;
+}
+
+h2{
+    margin: 20px;
+}
+
+div article h2{
+    color: #f00;
+}
+
+article h2{
+    color: #00f;
+}
+h2, p{
+    font-size: 18pt;
+}

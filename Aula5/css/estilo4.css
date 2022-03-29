@@ -1,0 +1,26 @@
+body{
+    background-color: #51bcfa;
+    font-size: 20pt;
+    font-family: Verdana;
+    margin: 0;
+
+}
+
+article{
+    width: 500px;
+    background-color: #ececec;
+    border: 2px dashed #000;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+}
+h2{
+    margin: 0;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}

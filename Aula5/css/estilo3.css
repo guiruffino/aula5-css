@@ -1,0 +1,14 @@
+/*Estilo externo*/
+p{
+    color: #ff0000;
+    font-weight: bold;
+}
+
+body{
+    background-color: #ccc;
+}
+
+p{
+    background-color: #000;
+    color: #fff;
+}
