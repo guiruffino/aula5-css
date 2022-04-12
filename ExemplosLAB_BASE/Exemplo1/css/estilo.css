@@ -1,0 +1,90 @@
+/*#fig1{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+}*/
+
+html,body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#container{
+    width: 1000px;
+    height: 300px;
+    background-color: #f00;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   /* overflow: hidden; */
+
+}
+
+figure{
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;   
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes anima1{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);   
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes anima2{
+    0%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    50%{
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+@keyframes anima3{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+#fig1:hover{
+    animation: anima1 2s linear infinite;
+}
+#fig2:hover{
+    animation: anima2 2s linear infinite;
+}
+#fig3:hover{
+    animation: anima3 2s linear infinite;
+}

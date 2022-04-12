@@ -1,0 +1,35 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #ccc;
+    height: 90px;
+    line-height: 90px;
+    padding-left: 30px;
+}
+#menu, aside{
+    width: 20%;
+}
+#menu{
+    background-color: #f00;
+}
+aside{
+    background-color: #0ff;
+}
+#conteudo{
+    width: 60%;
+}
+
+footer{
+    background-color: #000;
+    color: #ccc;
+}
+
+#menu,#conteudo,aside{
+    float: left;
+}
+footer{
+    clear: both;
+}
+
