@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 250px 1fr 250px;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    
+}
+
+header, footer{
+    grid-column: span 3;
+
+    height: 80px;
+    text-align: center;
+    color: #fff;
+}
+
+header{
+    background-color: rgb(55, 105, 89);
+}
+footer{
+    background-color: rgb(53, 133, 107);
+}
+
+nav{
+    background-color: rgb(145, 201, 182);
+    text-align: center;   
+}
+aside{
+    background-color: rgb(166, 243, 217);
+    text-align: center;
+}
+
+@media (max-width: 768px ){
+    .container{
+        display: flex;
+        flex-direction: column;
+
+    }
+    nav,aside{
+        height: 80px;
+    }
+    aside{
+        display: none;
+    }
+
+    
+}

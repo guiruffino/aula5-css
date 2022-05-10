@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+
+}
+nav{
+    background: linear-gradient(#C7EBFA, #9FD8FA);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+    font-size: 1.5em;
+    color: #fff;
+}
+nav div{
+    width: 110px;
+}   
+nav div a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+nav div .logo{
+    font-size: 1.3em;
+    display: none;
+}
+figure{
+    width: 70%;
+    margin-top: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+    border: 2px solid #000;
+}
+figure img{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        margin-right: 5px;
+    }
+    #wrapper{
+        flex-direction: row;
+    }
+    nav{
+        width: 40%;
+        background: linear-gradient(#6d95ac, #b8d7e9 ) ;
+        flex-wrap: wrap;
+        text-align: center;
+        align-content: flex-start;
+    }
+    nav div{
+        width: 100%;
+        margin-bottom: 46px;
+    }
+    nav div .texto, figcaption{
+        display: none;
+
+    }
+    nav div .logo{
+        display: block;
+    }
+    figure{
+        margin: 5px;
+        width: 100%;
+        background: linear-gradient( rgb(133, 209, 199), rgb(113, 161, 155)) ;
+        padding: 5px;  
+    }   
+    
+
+}
